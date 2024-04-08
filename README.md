@@ -57,22 +57,26 @@ Airflow se utiliza para orquestar el flujo de trabajo completo del proyecto. El 
 
 - **Carga y transformación de datos**: Recopila datos de una API y los transforma para el entrenamiento del modelo.
 - **Entrenamiento de modelos**: Entrena un modelo de clasificación forestal y lo almacena en MinIO.
+![imagen3](https://github.com/wpradab/proyecto2/assets/142359246/aa78923f-c847-4784-88c3-31294daf02d9)
 
-![Interfaz de Airflow](C:\Users\rmaci\Downloads\imagen3.png)
+
 
 ### MLflow
 
 MLflow rastrea los experimentos y almacena los modelos. Puede ver los detalles de las ejecuciones, incluidos los parámetros, las métricas y los artefactos asociados.
 
-![Interfaz de MLflow Experimentos](C:\Users\rmaci\Downloads\imagen1.png)
-![Interfaz de MLflow Metricas](C:\Users\rmaci\Downloads\imagen.png)
+![imagen1](https://github.com/wpradab/proyecto2/assets/142359246/f2f15c8d-9f31-4a40-b864-20d743bfc88a)
+![imagen](https://github.com/wpradab/proyecto2/assets/142359246/f0ec42d7-03af-4f21-8e64-678cf64f36a9)
+
 
 
 ### MinIO
 
 MinIO proporciona almacenamiento de objetos para MLflow. Los modelos entrenados y otros artefactos se almacenan aquí.
 
-![Interfaz de MinIO](C:\Users\rmaci\Downloads\imagen2.png)
+![imagen2](https://github.com/wpradab/proyecto2/assets/142359246/b93a33a2-3042-469e-9123-2afa65135ef2)
+
+
 
 ### FastAPI (Pendiente de Implementación)
 
