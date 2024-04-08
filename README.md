@@ -78,10 +78,9 @@ MinIO proporciona almacenamiento de objetos para MLflow. Los modelos entrenados 
 
 
 
-### FastAPI (Pendiente de Implementación)
+### FastAPI
 
-FastAPI se utilizará para servir los modelos entrenados. (Nota: FastAPI aún no se ha implementado completamente en este proyecto).
-
+FastAPI se utilizará para servir los modelos entrenados.
 ## Integrantes
 
 Juan David Torres Jimenez
